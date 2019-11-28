@@ -5,17 +5,28 @@
 }
 
 .debug .container {
-  border: 1px solid black;
   height: 200px;
+
 }
 
 .debug [class*="col-"] {
   border: 1px solid black;
   height: 100%;
+  padding: 5px;
+  background-color: lightpink;
+}
+
+.debug [class*="col-"] .container {
+  height: 100%;
+}
+
+.debug [class*="col-"] .container [class*="col-"] {
+  background-color: #f78ac4;
+  /*border: 1px solid white;*/
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
