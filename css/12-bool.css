@@ -22,7 +22,7 @@
 
 .debug [class*="col-"] .container [class*="col-"] {
   background-color: #f78ac4;
-  /*border: 1px solid white;*/
+  border: 1px solid white;
 }
 
 .container {

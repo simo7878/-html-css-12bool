@@ -1,3 +1,7 @@
 .container {
+  position: relative;
+}
 
+.debut [class*="col1"] .container .text {
+  position: absolute;
 }
