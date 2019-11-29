@@ -25,6 +25,10 @@
   border: 1px solid white;
 }
 
+.debug [class*="col-"] .container [class*=col-2-nested] p {
+  display: block;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;

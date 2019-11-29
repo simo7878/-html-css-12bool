@@ -1,7 +1,7 @@
-.container {
-  position: relative;
-}
 
-.debut [class*="col1"] .container .text {
-  position: absolute;
+.container .text {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 170px;
+  font-weight: normal;
 }
